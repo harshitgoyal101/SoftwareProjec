@@ -1,0 +1,48 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+section{
+	margin: 30px;
+	height: 60vh;
+	width: 90%;
+	border: 2px solid black;
+}
+
+.navbar-brand
+	{
+		font-size:38px;
+	}
+
+.card-container
+{
+	width: 18rem;
+	height: 427px; 
+	margin: 15vh 50px 0px 0px;
+	perspective: 30rem;
+	position: relative;
+}
+
+.card-front
+{
+	border-radius: 10px; 
+	box-shadow: 0px 0px 10px 0px;	
+}
+
+.card-back
+{
+	border-radius: 10px; 
+	box-shadow: 0px 0px 10px 0px;
+	transform: rotateY(-180deg);	
+}
+
+.card
+{
+	position: absolute;
+	transition: 0.9s;
+	height: 100%;
+	width: 100%;
+	backface-visibility: hidden;
+}
